@@ -26,8 +26,8 @@ classDiagram
         -int Ancho
         +Rectangle()
         +Rectangle(int, int)
-        +getAlto()
-        +getAncho()
+        +int getAlto()
+        +int getAncho()
       };
 
       class Polygon {
