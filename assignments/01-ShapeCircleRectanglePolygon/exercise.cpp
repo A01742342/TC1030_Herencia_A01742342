@@ -1,5 +1,6 @@
 #include "Shape.hpp"
 #include "Circle.hpp"
+#include "Rectangle.hpp"
 
 #include <iostream>
 
@@ -12,6 +13,10 @@ int main()
   Circle circulo1{2,3,5};
 
   std::cout << circulo1.draw() << " con valor en x: " << circulo1.getValueX() << " y valor en y en: " << circulo1.getValueY() << " con radio r: "<< circulo1.getRadio() << "\n";
+
+  Rectangle r1{10, 2};
+
+  std::cout << r1.draw() << " con un alto de " << r1.getAlto() << " y un ancho de " << r1.getAncho() << "\n";
 
   return 0;
 }
