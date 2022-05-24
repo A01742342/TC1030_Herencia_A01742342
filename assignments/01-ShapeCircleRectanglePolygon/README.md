@@ -20,14 +20,16 @@ classDiagram
         +Circle(int, int, int)
         +int getRadio()
       };
+
       class Rectangle {
             -int Alto
             -int Ancho
             +Rectangle()
-            +Rectangle(int, int, int, int)
+            +Rectangle(int, int)
             +getAlto()
             +getAncho()
       };
+
       class Polygon {
             
       };
