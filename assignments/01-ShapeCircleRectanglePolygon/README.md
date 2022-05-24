@@ -22,12 +22,12 @@ classDiagram
       };
 
       class Rectangle {
-            -int Alto
-            -int Ancho
-            +Rectangle()
-            +Rectangle(int, int)
-            +getAlto()
-            +getAncho()
+        -int Alto
+        -int Ancho
+        +Rectangle()
+        +Rectangle(int, int)
+        +getAlto()
+        +getAncho()
       };
 
       class Polygon {
